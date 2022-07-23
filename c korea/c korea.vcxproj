@@ -128,6 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cp_01_print.cpp" />
+    <ClCompile Include="cp_02_print.cpp" />
+    <ClCompile Include="cp_03_var.c.cpp" />
+    <ClCompile Include="cp_04_ time.cpp" />
+    <ClCompile Include="cp_05_print.c.cpp" />
+    <ClCompile Include="cp_06_ofer.c.cpp" />
+    <ClCompile Include="cp_08_oper. c.cpp" />
+    <ClCompile Include="_cp_07_oper.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

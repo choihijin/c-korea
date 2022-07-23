@@ -18,5 +18,26 @@
     <ClCompile Include="cp_01_print.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cp_02_print.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cp_03_var.c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cp_04_ time.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cp_05_print.c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cp_06_ofer.c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_cp_07_oper.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cp_08_oper. c.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
