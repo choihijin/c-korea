@@ -1,7 +1,9 @@
-﻿#include "imagedlg.h"
-#include "framework.h"
+﻿#include "framework.h"
+#include "imagedlg.h"
+
 #include <gdiplus.h>
-#pragma commant(lib,"gd")
+#pragma comment(lib, "gdiplus")
+using namespace Gdiplus;
 
 
 
@@ -11,16 +13,17 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     switch (message)
     {
     case WM_INITDIALOG:
-        return (INT_PTR)TRUE;
+        SetWindowPos(hDlg, HWND_TOP, 0, 0, 800,  600, NULL);
+       return (INT_PTR)TRUE;
     case WM_PAINT:
     {
         PAINTSTRUCT ps;
         HDC HDC = BeginPaint(hDlg,  &ps);
-        Graphics gp(hdc);
-        Image img = ("img1.jpg");
-        gp.DrawImage(&img, 0, 0, 300, 300);      
+        Graphics gp(HDC);
+        Image img = TEXT("img1.jpg");
+        gp.DrawImage(&img, 0, 0, 800, 600);
         EndPaint(hDlg, &ps);
-
+        
     }
     
     return TRUE;
@@ -45,10 +48,12 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 {
 
     ULONG_PTR up;
-    Gdiplusstartupinput gpsi;
-    Gdiplusestartup(&up, &gpsi, NULL);
+    GdiplusStartupInput gpsi;
+    GdiplusStartup(&up, &gpsi, NULL);
+   
     DialogBox(hInstance, MAKEINTRESOURCE(IDD_DIALOG1), NULL, DlgProc);
-    gd
+    
+    GdiplusShutdown(up);
 
 
 }
