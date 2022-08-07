@@ -31,13 +31,16 @@ void Div(int num1, int num2) {
 //숫자을 2개을 받아서각각 절대값 만들어 더하기 (절대값을 만들어서 플러스로 바뀜)
 
 void a(int num1, int num2) {
-	if(num1>0){
+	if(0>num1){
 	
 		int result4 = -num1 + num2;
 		printf("%d \n", result4);
 	
 	}
-	else(num2)
+	else if (0>num2) {
+		int result4 = num1 - num2;
+		printf("%d \n", result4);
+	}
 	}
 	
 	
@@ -49,10 +52,20 @@ void a(int num1, int num2) {
 
 //
 void b(int num1, int num2) {
+	if (0 > num1) {
 	int result5 = -num1 + num2;
-	
-	
 	printf("%d \n", result5);
+
+	}
+	else if (0>num2)
+	{
+		int result5 = num1 -num2;
+		printf("%d \n", result5);
+
+	}
+	
+
+	
 
 
 }
