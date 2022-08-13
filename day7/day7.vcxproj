@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{49d6dd8a-342a-43de-b4b6-1b13e031f1da}</ProjectGuid>
-    <RootNamespace>day6</RootNamespace>
+    <ProjectGuid>{a8610680-fe33-42d6-827d-2e6b5b34d96f}</ProjectGuid>
+    <RootNamespace>day7</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -101,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -115,7 +115,7 @@
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -128,10 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="review.c" />
-    <ClCompile Include="_02_func.c" />
-    <ClCompile Include="_01_funk.c" />
-    <ClCompile Include="_03_ type.c" />
-    <ClCompile Include="_04_funk.c" />
+    <ClCompile Include="_01_alway.c" />
+    <ClCompile Include="_02_away .c" />
+    <ClCompile Include="_03_ALWAY.C" />
+    <ClCompile Include="_04_awaly.c" />
+    <ClCompile Include="_05_ponit.c" />
+    <ClCompile Include="_06_point .c" />
+    <ClCompile Include="_07_point .c" />
+    <ClCompile Include="_08_POINT .C" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="review.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

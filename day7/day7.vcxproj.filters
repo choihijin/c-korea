@@ -18,17 +18,34 @@
     <ClCompile Include="review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_01_funk.c">
+    <ClCompile Include="_01_alway.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_02_func.c">
+    <ClCompile Include="_02_away .c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_03_ type.c">
+    <ClCompile Include="_03_ALWAY.C">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_04_funk.c">
+    <ClCompile Include="_04_awaly.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="_05_ponit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_06_point .c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_07_point .c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_08_POINT .C">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="review.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
